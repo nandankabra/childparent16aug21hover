@@ -1,0 +1,47 @@
+#p1{
+    width: 400px;
+    height: 400px;
+    background: red;
+    margin: auto;
+    position: relative;
+}
+.common{
+    width: 100px;
+    height: 100px;
+    position:absolute;
+}
+.c1{
+    background: royalblue;
+    top: 0px;
+    left: 0px;
+}
+.c2{
+    background: seagreen;
+    top: 0px;
+    right: 0px;
+}
+.c3{
+    background: chocolate;
+    bottom: 0px;
+    left: 0px;
+}
+.c4{
+    background:burlywood ;
+    bottom: 0px;
+    right: 0px;
+}
+#pp1:hover #p1{
+    background: lightgreen;
+}
+#p1:hover .c1{
+    background: rgb(226, 113, 6);
+}
+#p1:hover .c2{
+    background:rgb(5, 110, 175);
+}
+#p1:hover .c3{
+    background: rgb(73, 11, 173);
+}
+#p1:hover .c4{
+    background: rgb(151, 2, 131);
+}
